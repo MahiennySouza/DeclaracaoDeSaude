@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaração</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="titulo">
+            <h1>Declaração da saúde - COVID-19</h1>
+
+            <p>Para a saúde e segurança de nossa comunidade, a declaração de doença (ou ausência dela!) é necessária
+                antes de receber a massagem. Certifique-se de que as informações que você vai dar sejam precisas e
+                completas. Por favor, busque atendimento médico imediatamente se você tiver algum dos graves sintomas de
+                COVID-19.</p>
+        </div>
+
+        <form autocomplete="on">
+
+            <div class="group">
+                <div class="style">
+                    <label for="nome">Nome<span>*</span></label>
+                    <input type="text" id="nome" name="nome" placeholder="digite seu nome" required>
+                </div>
+
+                <div class="grup">
+                    <input type="text" placeholder="digite seu sobrenome" required>
+                </div>
+            </div>
+
+            <div class="box">
+                <label for="email">E-mail<span>*</span></label>
+                <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required>
+            </div>
+
+            <div class="box">
+                <label for="tel">Telefone<span>*</span></label>
+                <input type="number" id="tel" name="tel" placeholder="(00) 00000-0000" required>
+            </div>
+
+            <h4>Marque qualquer sintoma que você experimentou nos últimos 14 dias<span>*</span></h4>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox1" name="opcao" value="1">
+                <label for="checkbox1">Febre 38°C ou mais</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox2" name="opcao" value="2">
+                <label for="checkbox2">Dores inexplicáveis nas solas dos pés</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox3" name="opcao" value="3">
+                <label for="checkbox3">Tosse</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox4" name="opcao" value="4">
+                <label for="checkbox4">Dor de garganta</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox5" name="opcao" value="5">
+                <label for="checkbox5">Feridas inexplicáveis nas solas dos pés</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox6" name="opcao" value="6">
+                <label for="checkbox6">Falta de ar</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox7" name="opcao" value="7">
+                <label for="checkbox7">Coriza não relacionada a alergia</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox8" name="opcao" value="8">
+                <label for="checkbox8">Calafrios com ou sem dores</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox9" name="opcao" value="9">
+                <label for="checkbox9">Cansaço inusitado</label>
+            </div>
+
+            <div class="list">
+                <input type="checkbox" id="checkbox10" name="opcao" value="10">
+                <label for="checkbox10">NENHUMA DAS ANTERIORES</label>
+            </div>
+
+            <div class="meu-item">
+                <input type="checkbox" id="checkbox11" name="opcao" value="11">
+                <label for="checkbox11">Concordo que estou fornecendo informações de saúde precisas.<span>*</span></label>
+            </div>
+
+            <div class="botao">
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
+

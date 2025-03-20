@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans+Narrow:wght@400;700&display=swap");
+
+:root {
+  --roxoEscuro: #5b3993;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, ital, opsz;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(to right, #d7d5da, #a17fbe);
+}
+
+.container {
+  width: 45%;
+  height: 140vh;
+  margin: 70px auto ;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+  background-color: #fff;
+  padding: 30px;
+}
+
+.titulo {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #5b3993;
+}
+
+.titulo h1,
+p {
+  margin-bottom: 15px;
+}
+
+h1,
+h4 {
+  color: var(--roxoEscuro);
+}
+
+p {
+  color: var(--roxoEscuro);
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+}
+
+.grup {
+  margin-top: 18px;
+}
+
+.box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box input {
+  width: 30%;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #797878;
+}
+
+.group input {
+  width: 205px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #797878;
+}
+
+label {
+  color: #5b3993;
+}
+
+::placeholder {
+  color: #927cb3;
+  padding: 10px;
+}
+
+span {
+  color: #cb0a0a;
+}
+
+h4 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.list {
+  margin-bottom: 8px;
+}
+
+.meu-item {
+  margin-top: 45px;
+  border-bottom: 1px solid #5b3993;
+}
+
+.meu-item input {
+  margin-bottom: 40px;
+}
+
+input[type="number"]:hover::placeholder,
+input[type="text"]:hover::placeholder,
+input[type="email"]:hover::placeholder {
+  color: #6230ae;
+}
+
+input:hover {
+  cursor: pointer;
+  border: 2px solid #6c4aa4;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.botao button {
+  padding: 15px;
+  width: 100px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #5b4284;
+  transition: 2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3b1d6b;
+}
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 768px){
+
+    .container{
+        width: 80%;
+        height: 90%;
+        
+    }
+
+    input[type="email"], input[type="number"]{
+
+        width: 53%;
+    }
+
+}
+
+@media (max-width: 981px){
+   .container{
+    width: 80%;
+   }
+}
