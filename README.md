@@ -3,7 +3,7 @@ Reestruturei este modelo de página com o objetivo de aprofundar meu conheciment
 
 #Ferramentas utilizadas:
 
--HTML
--CSS
+ HTML/
+ CSS
 
 🩵💙⛏️✋
